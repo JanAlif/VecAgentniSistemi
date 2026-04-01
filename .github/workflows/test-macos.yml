@@ -1,0 +1,50 @@
+name: test_macos
+
+on:
+  push:
+    branches:
+      - dev
+      - public
+      - feature/**
+    paths:
+      - 'pibt2/**'
+      - 'tests/**'
+      - 'mapf.cpp'
+      - 'mapd.cpp'
+      - '.github/workflows/test-macos.yml'
+
+jobs:
+  test-macos:
+    runs-on: macos-10.15
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: false
+
+      - uses: actions/checkout@v2
+        with:
+          repository: google/googletest
+          path: third_party/googletest
+
+      - uses: actions/checkout@v2
+        with:
+          repository: Kei18/grid-pathfinding
+          path: third_party/grid-pathfinding
+
+      - name: build
+        run: |
+          mkdir build
+          cd build
+          cmake ..
+          make
+
+      - name: test
+        working-directory: build
+        run: ./test
+
+      - name: run-app
+        working-directory: build
+        run: |
+          ./mapf -i ../instances/mapf/sample.txt -s PIBT -o result.txt -v
+          ./mapd -i ../instances/mapd/sample.txt -s PIBT -o result.txt -v
