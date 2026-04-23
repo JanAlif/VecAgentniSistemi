@@ -1,0 +1,442 @@
+[
+  {
+    "metrics": {
+      "avg_throughput": 0.7427
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7534
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.779
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7241
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.728
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7123
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7193
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7107
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7225
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7511
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1392
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1155
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0903
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0924
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1153
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0861
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0659
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1273
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1094
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.069
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4156
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4176
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4867
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4186
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.46
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4876
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4128
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4409
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4482
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4834
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8751
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8807
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8798
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8639
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9139
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9253
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8949
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.863
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9171
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.919
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "metrics": {
+      "avg_throughput": 1.6928
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6106
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6238
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6322
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.682
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6565
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6967
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6777
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6073
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6591
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.2587
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3321
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.2511
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.2778
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3117
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.333
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.2623
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3325
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.2596
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.2879
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7773
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 96,
+      "seed": 0
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7455
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 96,
+      "seed": 1
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7678
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 96,
+      "seed": 2
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7467
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 96,
+      "seed": 3
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.766
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 96,
+      "seed": 4
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7791
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 96,
+      "seed": 5
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.748
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 96,
+      "seed": 6
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7189
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 96,
+      "seed": 7
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7015
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 96,
+      "seed": 8
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7457
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 96,
+      "seed": 9
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.022
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.031
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.0199
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.0185
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.0981
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.0336
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.0915
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.0037
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.0535
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.0889
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.2616
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 160,
+      "seed": 0
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.2216
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 160,
+      "seed": 1
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.2668
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 160,
+      "seed": 2
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.2549
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 160,
+      "seed": 3
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.2525
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 160,
+      "seed": 4
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.2556
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 160,
+      "seed": 5
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.2684
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 160,
+      "seed": 6
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.2789
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 160,
+      "seed": 7
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.2047
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 160,
+      "seed": 8
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.2971
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 160,
+      "seed": 9
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.3619
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 192,
+      "seed": 0
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.3374
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 192,
+      "seed": 1
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.3105
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 192,
+      "seed": 2
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.3226
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 192,
+      "seed": 3
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.3065
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 192,
+      "seed": 4
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.3775
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 192,
+      "seed": 5
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.322
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 192,
+      "seed": 6
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.3098
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 192,
+      "seed": 7
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.3448
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 192,
+      "seed": 8
+    },
+    "algorithm": "No static cost"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.3718
+    },
+    "env_grid_search": {
+      "map_name": "wfi_warehouse",
+      "num_agents": 192,
+      "seed": 9
+    },
+    "algorithm": "No static cost"
+  }
+]

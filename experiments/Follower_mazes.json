@@ -1,0 +1,4402 @@
+[
+  {
+    "metrics": {
+      "avg_throughput": 0.9512
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.902
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.922
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9179
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9589
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9541
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9714
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.907
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9338
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9024
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4175
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4404
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4021
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4159
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.452
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4436
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4176
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4471
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4648
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4005
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0645
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0559
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0272
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0124
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0766
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0269
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0074
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0077
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0678
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0483
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7646
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7584
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7429
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7778
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7303
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7442
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7664
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7495
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7689
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7462
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9364
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8837
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8982
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9032
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8864
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8986
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8881
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9022
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9309
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9092
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4096
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3968
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4014
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4549
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4318
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4287
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3937
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4383
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3931
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4104
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0592
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0312
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0246
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0348
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0474
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0421
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9983
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9826
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0052
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0014
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6969
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7554
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7501
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7052
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7324
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7117
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7532
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7167
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7012
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6997
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0649
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.041
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0668
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0918
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.052
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0375
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0998
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0608
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0273
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0238
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.5288
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.5702
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.5834
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.5538
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.5251
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.5505
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.5997
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.5623
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.5977
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.5889
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.1209
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.1777
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.1745
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.163
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.1413
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.1713
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.1289
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.1548
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.1563
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.1963
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.8901
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.8411
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.86
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.8343
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.893
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.8896
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.8439
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.8711
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.8687
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.8322
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.836
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8182
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8373
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8174
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.775
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8009
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7766
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8493
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8453
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8415
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2996
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2796
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3452
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3508
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2819
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3139
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2805
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3358
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3363
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2853
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.913
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.919
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8962
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9448
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9089
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8919
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9181
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9334
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8911
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8999
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6546
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.627
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.61
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6164
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5847
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.593
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.602
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6221
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5934
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5926
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8257
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8705
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8383
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8924
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8888
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8257
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.839
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8735
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8371
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8306
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3948
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3657
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3578
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3828
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3846
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3352
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3278
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3545
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3539
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3574
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9783
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9739
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9987
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9279
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9522
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9471
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9889
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9399
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9352
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9559
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6538
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6423
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.64
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6939
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6555
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6889
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.664
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.624
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6999
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6869
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9025
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8991
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8929
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8383
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8639
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8421
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8571
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8297
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8553
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9038
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3462
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3877
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3614
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3588
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4016
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4046
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3695
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3825
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3374
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3487
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0025
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9713
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9684
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9848
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9296
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9717
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9652
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9932
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9376
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0019
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6314
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6399
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6726
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.679
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6438
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6346
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6962
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6447
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6726
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6746
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7785
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7917
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7868
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8198
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7613
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8023
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7641
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7767
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7987
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.769
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2703
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3051
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2508
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2817
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3249
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3247
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2509
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2621
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2662
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3197
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9155
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9153
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8746
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8576
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9117
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9013
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8939
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.924
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8973
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8456
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6104
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.569
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5981
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6201
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5557
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5542
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5536
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5893
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5668
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5934
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8924
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8513
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8857
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8561
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8741
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9074
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9027
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8424
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8689
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8571
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3353
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3967
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.386
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.356
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3943
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3791
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3692
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3358
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.341
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4056
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0073
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9786
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0018
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9816
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9468
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9452
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9597
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0069
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9987
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.0039
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7069
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6518
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.655
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6432
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6974
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7057
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6675
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6847
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6474
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.7094
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8242
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8331
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8199
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8255
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.757
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8139
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7816
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8295
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8192
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8241
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3199
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2763
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.318
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2636
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3248
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3237
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2728
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3203
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2918
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2794
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9186
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8732
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8569
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8705
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8813
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9241
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9324
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8773
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9063
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.887
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6335
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5979
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6301
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5642
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6326
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5693
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.632
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5762
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5637
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5898
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8183
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7851
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8085
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8009
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7908
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8061
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7804
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8167
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7601
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.834
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3031
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3176
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3194
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3137
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2891
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2656
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3131
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2864
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2851
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3278
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9176
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.884
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8847
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8927
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8922
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8837
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8702
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8936
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9352
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9142
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6322
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6092
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5841
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6038
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.56
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.583
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5944
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6064
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6124
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "Follower"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5972
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "Follower"
+  }
+]

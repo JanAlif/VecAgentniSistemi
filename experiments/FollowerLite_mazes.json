@@ -1,0 +1,4402 @@
+[
+  {
+    "metrics": {
+      "avg_throughput": 0.8031
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8557
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8115
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.837
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8537
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8634
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8363
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8399
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8015
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8346
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2798
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3182
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2938
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3104
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2847
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2641
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3181
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3156
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2801
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2577
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.841
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8397
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8618
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8478
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8405
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.846
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8302
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8039
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8049
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8754
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5171
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4737
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5211
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4918
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4582
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5185
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4968
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5246
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5043
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4575
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s40_wc4_od30",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8298
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.843
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8519
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8065
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8223
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8361
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7933
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8479
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8425
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.784
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2773
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2594
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2449
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2784
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3075
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2742
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2391
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2696
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2923
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3064
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8372
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7833
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8573
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8281
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7867
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7902
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7869
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8332
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7923
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.8446
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4387
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4728
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4654
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.433
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4302
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5023
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5081
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4399
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4888
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5091
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s41_wc5_od50",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9923
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9908
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.947
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9774
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9598
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.995
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9762
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9875
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9886
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9508
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.427
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3774
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3865
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4449
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4024
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4248
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4161
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3908
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.4169
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.443
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9462
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9478
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9349
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9342
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9862
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9765
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9972
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9736
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9967
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.9378
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.585
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5873
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6007
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6492
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.588
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6067
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5749
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.5722
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6137
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.6191
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s42_wc7_od30",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7159
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7482
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7439
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7511
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7213
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6961
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6854
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7361
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6874
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6755
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1809
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.135
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1748
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1411
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.159
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1262
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1551
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1513
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1459
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1357
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7211
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7304
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.691
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6785
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6965
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7309
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6969
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7268
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6809
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7313
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3364
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3429
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3834
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.363
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3762
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3479
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3785
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3489
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3635
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3605
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s43_wc2_od45",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.793
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7802
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7639
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7876
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7688
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7779
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7614
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.766
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7371
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7945
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2211
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2356
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2185
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.172
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1787
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2405
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.226
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2424
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2415
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1885
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7988
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7689
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7784
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7613
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7405
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7589
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.757
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7438
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7473
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7554
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3913
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3811
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4343
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3987
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3992
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4327
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4259
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4058
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3948
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4337
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s44_wc2_od30",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7439
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.762
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.755
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.8046
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7442
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7725
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7672
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7289
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7395
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7959
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2381
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1921
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1893
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2501
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2221
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2323
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2476
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1959
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.215
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2481
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7399
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7454
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7955
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7923
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7662
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7357
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7917
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7497
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7856
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7454
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3873
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4305
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4065
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4051
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4101
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4117
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4127
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4269
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3835
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.429
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s45_wc4_od55",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6839
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7105
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.668
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6984
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6614
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7009
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6995
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6885
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6834
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.721
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1237
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1016
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1215
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0984
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1663
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1618
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1098
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1453
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1114
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1634
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6782
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6497
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6958
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6517
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7165
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7193
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6941
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6646
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.707
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6481
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3039
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3193
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3008
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3649
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3485
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3596
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3476
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.313
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3173
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3436
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s46_wc2_od55",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7983
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.785
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7607
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.799
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7678
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7852
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.803
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7881
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7718
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7823
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2013
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2199
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2516
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2238
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1863
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2502
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1974
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1876
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2313
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2464
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.744
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7705
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7719
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7448
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7853
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7551
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7903
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7752
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.777
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7535
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4461
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3859
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4101
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3932
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3919
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3859
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4268
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3908
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3941
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.4196
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s47_wc2_od25",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7094
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6712
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7076
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6996
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.729
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7198
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7343
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6836
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7258
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6807
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1276
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.139
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1068
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1629
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1121
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.154
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1097
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1392
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1252
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1806
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6789
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6835
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6796
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.665
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7065
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6792
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6767
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.68
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6832
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7185
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3223
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3149
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3314
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3506
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3276
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3138
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3336
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3819
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3767
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3406
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s48_wc3_od65",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6946
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6739
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7137
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7177
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6807
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7101
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6682
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6852
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6831
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.7237
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1595
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1509
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.145
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1542
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1485
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1306
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1765
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1738
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1409
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.1422
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7341
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6616
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7213
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6735
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6752
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.688
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7099
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6856
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7014
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.701
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3836
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3563
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3316
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3606
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3545
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3343
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.368
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3107
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3889
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3799
+    },
+    "env_grid_search": {
+      "map_name": "test-mazes-s49_wc2_od50",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  }
+]

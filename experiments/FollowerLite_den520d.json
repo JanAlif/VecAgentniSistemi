@@ -1,0 +1,442 @@
+[
+  {
+    "metrics": {
+      "avg_throughput": 0.6518
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.669
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6366
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6571
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6358
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6309
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6527
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6394
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6549
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.6895
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9429
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.99
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9508
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0036
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.999
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9569
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.0078
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9974
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.946
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9727
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.296
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3138
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2538
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2601
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.302
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.317
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2475
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2472
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.3001
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.2654
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6709
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7101
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6997
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6929
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7094
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6986
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.7048
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6915
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6875
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6448
+    },
+    "env_grid_search": {
+      "map_name": "den520d",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  }
+]

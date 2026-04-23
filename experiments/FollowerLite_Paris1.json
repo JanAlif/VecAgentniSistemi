@@ -1,0 +1,442 @@
+[
+  {
+    "metrics": {
+      "avg_throughput": 0.9652
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 32,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.973
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 32,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9754
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 32,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9643
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 32,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9812
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 32,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9692
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 32,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9341
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 32,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9719
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 32,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9324
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 32,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 0.9402
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 32,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.5964
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 64,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6666
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 64,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6182
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 64,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6247
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 64,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6617
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 64,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6599
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 64,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6268
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 64,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.593
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 64,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6223
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 64,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 1.6059
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 64,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3958
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 128,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3033
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 128,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3374
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 128,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3688
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 128,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3601
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 128,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3558
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 128,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3762
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 128,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3239
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 128,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3841
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 128,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 2.3915
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 128,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.1035
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 256,
+      "seed": 0
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.1334
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 256,
+      "seed": 1
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.1363
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 256,
+      "seed": 2
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.1384
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 256,
+      "seed": 3
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.154
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 256,
+      "seed": 4
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.1253
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 256,
+      "seed": 5
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.1649
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 256,
+      "seed": 6
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.1881
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 256,
+      "seed": 7
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.1927
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 256,
+      "seed": 8
+    },
+    "algorithm": "FollowerLite"
+  },
+  {
+    "metrics": {
+      "avg_throughput": 3.1846
+    },
+    "env_grid_search": {
+      "map_name": "Paris_1_256c4",
+      "num_agents": 256,
+      "seed": 9
+    },
+    "algorithm": "FollowerLite"
+  }
+]
