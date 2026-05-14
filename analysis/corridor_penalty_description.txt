@@ -1,0 +1,478 @@
+================================================================================
+CORRIDOR PENALTY: A HEURISTIC IMPROVEMENT FOR FOLLOWER'S PATH PLANNER
+================================================================================
+
+This document describes the corridor penalty improvement we propose for the
+FOLLOWER algorithm (Skrynnik et al., 2024), explains the theory behind it,
+why it helps on some map types but not others, and how it is implemented.
+
+Final empirical results are summarized in Section 9.
+
+
+================================================================================
+1. BACKGROUND: HOW FOLLOWER'S PATH PLANNER WORKS
+================================================================================
+
+FOLLOWER is a decentralized algorithm for lifelong multi-agent pathfinding
+(LMAPF). It combines two components:
+
+  - A heuristic path planner based on A* search, which constructs an
+    individual path for each agent toward its goal.
+  - A learned neural-network policy that follows that path while avoiding
+    collisions with other agents observed locally.
+
+The A* planner uses cell-transition costs that have two parts:
+
+    cost(c, t) = cost_static(c) + cost_dynamic(c, t)
+
+The STATIC cost is computed once per map. For each free cell c, the
+algorithm computes the average shortest-path length from c to all other
+free cells (call this avg_cost(c)). The static cost of moving INTO c is
+defined as:
+
+    cost_static(c) = max(avg_cost) / avg_cost(c)
+
+The intuition is straightforward: cells with a small avg_cost lie on many
+shortest paths (they are "popular" thoroughfares), so they are likely
+congestion attractors. Penalizing them encourages A* to find more
+evenly-dispersed routes, reducing bottleneck contention.
+
+The DYNAMIC cost is updated during the episode based on each agent's
+observations of where other agents have been seen, and is reset when the
+agent reaches its goal.
+
+For more detail, see Section 4 ("Learn to Follow") in Skrynnik et al. (2024).
+
+
+================================================================================
+2. THE WEAKNESS WE TARGET
+================================================================================
+
+The original static cost is a smooth, average-based measure. It captures
+"this cell is on many paths" but it does NOT capture topology directly.
+In particular, it cannot distinguish between:
+
+  (a) A wide thoroughfare that is heavily used but has parallel
+      alternatives nearby (one of many similar cells in a busy region).
+
+  (b) A narrow choke point that is heavily used because there is
+      LITERALLY NO ALTERNATIVE (a single-cell corridor connecting
+      two regions).
+
+Both kinds of cells receive a high static penalty under the original
+formulation, but they are very different from a routing standpoint:
+
+  - For (a), penalizing the cell is useful: A* will pick one of the
+    parallel alternatives.
+
+  - For (b), penalizing the cell is wasted: there is no alternative, so
+    A* picks the same cell anyway, but with inflated cost — this just
+    distorts the search without changing the outcome.
+
+More importantly, the original cost does not assign EXTRA weight to true
+topological bottlenecks. Cells in 1-wide corridors are not flagged any
+more strongly than cells in busy-but-passable open areas. This loses
+information about the structure of the graph that an LMAPF planner
+could exploit.
+
+
+================================================================================
+3. THE PROPOSED IMPROVEMENT
+================================================================================
+
+We augment the static cost with an additive penalty on cells that lie
+inside 1-wide corridors. Formally, we define a "passage cell" as follows:
+
+  A free cell c is a PASSAGE CELL if it has exactly two free neighbors
+  among its four cardinal neighbors, AND those two neighbors are opposite
+  each other (both vertical, or both horizontal).
+
+In other words: a passage cell is a free cell where movement is
+constrained to a single axis. Such cells form the interior of 1-wide
+corridors.
+
+We then modify the static cost as:
+
+    cost_static(c) = (max(avg_cost) / avg_cost(c))  +  λ · [c is passage]
+
+where λ ≥ 0 is a tunable weight (the "corridor penalty weight"). When
+λ = 0, the heuristic reduces to the original FOLLOWER planner. When λ > 0,
+A* sees passage cells as more expensive and prefers routes that avoid
+them when feasible.
+
+This is a STATIC modification: the corridor mask is computed once per
+map at episode start (one full pass over the grid), and then folded
+into the penalty matrix passed to the C++ A* planner. It adds no
+per-step overhead.
+
+Based on the weight ablation results (Section 9.1), the recommended
+default value for warehouse-style deployment is λ = 2.0.
+
+
+================================================================================
+4. WHY THIS WORKS — THE FOUR CONDITIONS
+================================================================================
+
+The corridor penalty improves throughput when four conditions hold:
+
+  (i)   The map contains narrow passages (1-wide corridors or
+        bottleneck cells).
+
+  (ii)  Those passages are a SMALL FRACTION of the free cells, so
+        penalizing them actually changes A*'s routing decisions.
+
+  (iii) ALTERNATIVE ROUTES of comparable length exist that bypass the
+        penalized cells, so A* has somewhere else to send the agents.
+
+  (iv)  There are enough AGENTS for contention at bottleneck cells to
+        actually limit throughput. Without contention, taking a
+        detour to avoid a corridor is a pure cost with no benefit.
+
+When all four hold, the corridor penalty acts like a soft load
+balancer: agents that have an alternative are nudged away from choke
+points, leaving the choke points free for agents that have no
+alternative. The overall result is reduced contention at exactly the
+cells where contention is most costly (because resolving a collision
+in a 1-wide corridor often requires one agent to retreat all the way
+out).
+
+When any condition fails, the penalty becomes a no-op or near-no-op,
+or in the low-density failure mode (iv), a small net cost:
+
+  - If condition (i) fails: no passages → mask is empty → no change.
+
+  - If condition (ii) fails: most cells are passages → penalty is
+    nearly uniform → routing decisions barely shift.
+
+  - If condition (iii) fails: corridor is the only route → A* picks
+    it anyway with higher reported cost → no behavioral change.
+
+  - If condition (iv) fails: detours are taken but provide no
+    contention relief → small net cost. This was observed at low
+    agent density (Section 9.1: -1.4% at 32 agents with λ=2.0).
+
+Crucially, the heuristic DEGRADES GRACEFULLY in the first three
+failure modes. The low-density regression in mode (iv) is small
+(~1.4%) and can be avoided in practice by using a smaller weight (or
+zero) when agent density is low.
+
+
+================================================================================
+5. WHY IT WORKS ON OPEN MAPS BUT NOT CLOSED ONES
+================================================================================
+
+This is the key empirical observation from our experiments.
+
+OPEN MAPS (e.g. warehouse-style layouts):
+  - Wide aisles between blocks of shelving.
+  - Only a small number of narrow connector cells where aisles meet,
+    near entrances, or near work stations.
+  - Many alternative paths between any two locations.
+
+  → Passage cells form a SMALL, INFORMATIVE subset of the map.
+  → Penalizing them genuinely redirects traffic.
+  → Conditions (i), (ii), (iii) all hold.
+  → Corridor penalty IMPROVES throughput substantially.
+
+  Final result: warehouse 46×33, λ=2.0,
+                +3.9% to +11.4% improvement depending on agent count,
+                statistically significant at p < 0.001 for all
+                configurations with ≥ 64 agents.
+
+CORRIDOR-DENSE MAPS (e.g. mazes):
+  - Most of the map consists of 1-wide corridors by construction.
+  - Few or no wide open areas.
+  - Routes are forced; alternatives are often unavailable or much longer.
+
+  → Passage cells form a LARGE FRACTION of all free cells.
+  → Penalizing them is nearly uniform — every plausible path is
+    penalized — so routing decisions don't change.
+  → Conditions (ii) and (iii) fail.
+  → Corridor penalty is NEUTRAL.
+
+  Final result: 4 maze maps × 4 agent counts = 16 configurations,
+                no statistically significant effect in 14/16, and the
+                2 remaining have effect sizes below 1% with marginal
+                p-values consistent with random noise.
+
+GAME-MAP / OUT-OF-DISTRIBUTION (e.g. den520d):
+  - Mixed topology: large open rooms connected by short corridor segments.
+  - Few clear bottleneck-with-alternatives configurations.
+  - Map type never used in policy training (true OOD test).
+
+  → Passage cells exist but are part of short, forced routes rather
+    than long bypassable corridors.
+  → The detours offered by the penalty rarely provide better routes.
+  → Corridor penalty is NEUTRAL.
+
+  Final result: den520d 64×64, no statistically significant effect
+                at any of 4 tested agent counts (all p > 0.3).
+
+This is not a bug. It is the heuristic correctly recognizing that it
+has no useful information to add on maps where its assumed topology
+(open regions with rare narrow bottlenecks) does not match the actual
+map structure. A more aggressive heuristic (e.g. one that penalizes
+corridors regardless of context) would risk damaging performance on
+these maps; ours does not.
+
+The fact that the improvement is MAP-DEPENDENT in a principled way is
+a STRENGTH of the method, not a weakness. Real-world LMAPF deployment
+is dominated by warehouse-like environments — sorting centers,
+fulfillment centers, automated factories — exactly the topology where
+corridor penalty helps. Maze-like and game-map environments are
+primarily academic benchmarks.
+
+
+================================================================================
+6. HOW IT IS IMPLEMENTED
+================================================================================
+
+The implementation is entirely on the Python side; no changes are made
+to the C++ planner. Three files are modified:
+
+  follower/planning.py
+    - Added two fields to PlannerConfig:
+        use_corridor_penalty: bool = False        (off by default)
+        corridor_penalty_weight: float = 1.5      (default; recommended 2.0)
+    - Modified Planner.update() to call the corridor penalty module
+      and add its output to the C++-computed static penalty matrix
+      before passing it to set_penalties().
+
+  follower/corridor_penalty.py  (new file)
+    - Implements compute_passage_mask(obstacles, obs_radius): scans the
+      grid once, marks each free cell that has exactly two opposite free
+      neighbors. Returns a boolean array.
+    - Implements add_corridor_penalty(base_penalties, obstacles, weight,
+      obs_radius): converts the existing penalty matrix to numpy, adds
+      weight × mask, returns the combined matrix.
+
+  model/follower/config.json
+    - Added the two new fields with their defaults, so the
+      pogema-toolbox override mechanism accepts them in YAML configs.
+
+The defaults (use_corridor_penalty=False) preserve the original FOLLOWER
+behavior. The improvement is only active when the YAML override flips
+the flag, which keeps the baseline comparison clean for ablation studies.
+
+Computational overhead:
+  - One-time, episode start: O(H × W) for the passage detection, where
+    H × W is the map size. For a 46 × 33 warehouse this is ~1500 cells;
+    negligible (~microseconds in pure Python).
+  - Per-step: zero. The corridor mask is computed once and added to the
+    penalty matrix; the C++ A* then uses the modified matrix as usual.
+
+The improvement is therefore essentially free at runtime, and is
+compatible with the pretrained policy without any retraining.
+
+
+================================================================================
+7. RELATION TO PRIOR WORK
+================================================================================
+
+The corridor penalty is a refinement of the static-cost mechanism
+introduced by Skrynnik et al. (2024) and shares its spirit: bias the
+planner away from likely-contended cells using offline knowledge of
+the graph topology.
+
+It is related to but distinct from two other ideas in the literature:
+
+  - Articulation-point detection (graph theory): a free cell is an
+    articulation point if removing it disconnects the graph.
+    Penalizing articulation points is a strict superset of our
+    passage-cell rule — every passage cell is part of a corridor that
+    contains at least one articulation point. We chose the
+    passage-cell rule because it is O(H × W) (one local check per
+    cell) rather than the O(V + E) Tarjan pass, and because it
+    directly identifies the cells where two-agent encounters are
+    unresolvable (head-to-head in a 1-wide corridor).
+
+  - PIBT priority inheritance (Okumura et al., 2022): an orthogonal
+    approach where agents coordinate at run-time using priorities and
+    a backtracking protocol. PIBT operates on agent priorities, not
+    on the cost surface; the two ideas could in principle be combined,
+    but doing so requires modifying the learned policy because the
+    policy was not trained to defer to neighbors with implicit
+    priority.
+
+Our approach has the advantage of being a pure heuristic improvement:
+it requires no retraining, no inter-agent communication, and no
+algorithmic changes beyond a one-line additive term in the static cost.
+
+
+================================================================================
+8. RELATION TO THE ORIGINAL PROJECT PROPOSAL
+================================================================================
+
+Our project proposal initially described two candidate improvements:
+priority management between agents (a PIBT-style mechanism) and a
+local path-reservation mechanism. During implementation we revised
+our approach for two reasons:
+
+  - Priority management requires changes to the learned policy: the
+    pretrained FOLLOWER neural network was not trained to defer to
+    neighbors based on implicit priority signals. Implementing this
+    properly would require retraining the policy (the original paper
+    cites approximately 18 hours of training on an NVIDIA A100), which
+    was not feasible within the project timeline.
+
+  - Path reservation has the same compatibility issue with the
+    pretrained policy and additionally would require inter-agent
+    communication, conflicting with the decentralized
+    no-communication assumption of FOLLOWER.
+
+We therefore revised our approach to a heuristic-level improvement
+that is fully compatible with the existing pretrained policy: the
+corridor penalty described in this document. This still falls under
+the broader umbrella of "improving the path-planning component of
+FOLLOWER", as originally proposed, but operates on the static cost
+function rather than on inter-agent priorities.
+
+Other improvements (priority management, reservation mechanism,
+recency-decayed dynamic cost) are being investigated by other team
+members as separate contributions.
+
+
+================================================================================
+9. FINAL EMPIRICAL RESULTS
+================================================================================
+
+All results below were obtained on a single machine (Apple Silicon Mac,
+CPU-only inference) using the official FOLLOWER pretrained checkpoint
+(1 billion training steps, provided by the original authors). Each
+configuration was run with 10 different random seeds. Statistical
+significance was assessed using a paired two-sided t-test on the
+seed-paired throughput values.
+
+----- 9.1 Warehouse (in-distribution map; main result) -----
+
+Map: wfi_warehouse (46 × 33)
+Agent counts: 32, 64, 96, 128, 160, 192
+Weights tested: λ ∈ {0.5, 1.0, 1.5, 2.0}
+Seeds: 0..9 (n = 10 per configuration)
+
+Throughput (mean across 10 seeds) and percentage delta vs. baseline:
+
+  Agents  Baseline    λ=0.5     λ=1.0     λ=1.5     λ=2.0
+  ------------------------------------------------------------
+    32     1.169    +0.4% ns  +0.1% ns  -0.3% ns   -1.4% ***
+    64     1.994    +2.2% *** +3.6% *** +3.8% ***  +3.9% ***
+    96     2.660    +2.8% *** +4.8% *** +6.7% ***  +7.7% ***
+   128     3.232    +2.9% *** +5.3% *** +7.9% ***  +8.9% ***
+   160     3.705    +2.4% *** +5.9% *** +8.3% *** +10.4% ***
+   192     4.073    +2.9% *** +6.2% *** +8.8% *** +11.4% ***
+
+Significance markers: ns = p > 0.05, * = p < 0.05, *** = p < 0.001.
+
+Key observations:
+
+  1. The improvement is statistically significant (p < 0.001) at every
+     agent count from 64 to 192 across all four weights tested.
+
+  2. The effect is MONOTONIC IN WEIGHT at every congested agent count:
+     λ=0.5 < λ=1.0 < λ=1.5 < λ=2.0. λ=2.0 is the best weight tested,
+     suggesting further gains might be possible at higher λ (future work).
+
+  3. The effect SCALES WITH CONGESTION: from +3.9% at 64 agents to
+     +11.4% at 192 agents (with λ=2.0). This matches the theoretical
+     prediction that the penalty helps most when contention at
+     bottlenecks is the binding constraint.
+
+  4. At 32 agents (lightly loaded), λ=2.0 produces a small but
+     statistically significant DECREASE of 1.4% (p < 0.001). This is
+     consistent with theory: detours through non-corridor cells have a
+     small cost that only pays off when there is contention to relieve.
+     In practice, this can be avoided by using a smaller weight (or
+     disabling the penalty) at low agent density.
+
+----- 9.2 Mazes (corridor-dense maps; generalization test) -----
+
+Maps: 4 maze instances from the FOLLOWER benchmark
+      (test-mazes-s40_wc4_od30, s44_wc2_od30,
+       s47_wc2_od25, s49_wc2_od50)
+Agent counts: 32, 64, 128, 192
+Weight: λ = 1.5
+Seeds: 0..9 per (map, agent count) (n = 10)
+Total configurations: 16
+
+Result:
+
+  - 14/16 configurations show NO statistically significant effect
+    (p > 0.05). Effect sizes are typically below ±0.5%.
+
+  - 2/16 configurations reach p < 0.05 with effect sizes below 1%
+    (s40_wc4_od30 @ 192: +0.64%, p = 0.036;
+     s49_wc2_od50 @ 32:  +0.73%, p = 0.038).
+    With 16 tests at α = 0.05, on average 0.8 false positives are
+    expected by chance; observing 2 marginal hits at p ≈ 0.04 is
+    consistent with the null hypothesis (no real effect).
+
+Conclusion: the corridor penalty is statistically NEUTRAL on
+maze-style maps. It neither helps nor hurts. This matches the
+theoretical prediction: when passage cells cover a large fraction of
+the free cells, the penalty becomes nearly uniform and routing
+decisions barely change.
+
+----- 9.3 den520d (out-of-distribution map; OOD generalization test) -----
+
+Map: den520d (64 × 64), downscaled game map
+Agent counts: 32, 64, 128, 192
+Weight: λ = 1.5
+Seeds: 0..9 (n = 10)
+
+Result:
+
+  Agents   Baseline    Variant    Δ %      p-value
+  --------------------------------------------------
+    32      0.669      0.670    +0.03%    0.85  ns
+    64      1.289      1.287    -0.15%    0.62  ns
+   128      2.219      2.223    +0.18%    0.70  ns
+   192      2.409      2.380    -1.21%    0.31  ns
+
+Conclusion: no statistically significant effect at any tested density
+(all p > 0.3). The corridor penalty does not generalize to this
+mixed-topology game map, but it also does not harm performance.
+
+----- 9.4 Summary of empirical findings -----
+
+  1. STRONG POSITIVE on warehouse-style maps:
+       up to +11.4% throughput at 192 agents, p < 0.001.
+
+  2. NEUTRAL on maze-style maps:
+       no significant effect, consistent with theory.
+
+  3. NEUTRAL on out-of-distribution game maps:
+       no significant effect, no harm.
+
+  4. SMALL NEGATIVE in lightly-loaded warehouse (32 agents, λ=2.0):
+       -1.4%, principled and avoidable with weight tuning.
+
+  5. Recommended weight: λ = 2.0 for warehouse-style deployment,
+       λ = 0 (disabled) below ~50 agents or on dense-corridor maps.
+
+
+================================================================================
+10. SUMMARY
+================================================================================
+
+  - We modify FOLLOWER's static cost function to add a penalty on cells
+    that lie inside 1-wide corridors.
+
+  - The penalty is computed once per map at episode start, has zero
+    per-step overhead, and works with the existing pretrained policy.
+
+  - On warehouse maps (sparse bottlenecks, many alternative routes),
+    the penalty improves throughput by up to +11.4% at high agent
+    density, statistically significant at p < 0.001 (paired t-test,
+    n=10 seeds per configuration).
+
+  - On maze maps and out-of-distribution game maps, the penalty is
+    statistically neutral — neither helping nor hurting — which is the
+    expected behavior given those topologies.
+
+  - The map-dependence of the result is a feature: the heuristic
+    engages when it has useful information and is inert otherwise.
+
+  - The mechanism scales with congestion: the larger the agent count,
+    the larger the improvement on the warehouse map.
+
+================================================================================

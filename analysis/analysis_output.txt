@@ -1,0 +1,71 @@
+
+==============================================================================================================
+Folder: 06-corridor-warehouse
+==============================================================================================================
+ Agents Variant                        Baseline    Variant     Δ %        t    p-value  sig   n
+-----------------------------------------------------------------------------------------------
+     32 Follower+Corridor-w0.5            1.169      1.173  +0.37%   +1.021     0.3338   ns  10
+     32 Follower+Corridor-w1.0            1.169      1.170  +0.12%   +0.370     0.7199   ns  10
+     32 Follower+Corridor-w1.5            1.169      1.165  -0.33%   -0.992     0.3472   ns  10
+     32 Follower+Corridor-w2.0            1.169      1.152  -1.44%   -5.177     0.0006  ***  10
+     64 Follower+Corridor-w0.5            1.994      2.039  +2.24%   +6.371     0.0001  ***  10
+     64 Follower+Corridor-w1.0            1.994      2.066  +3.63%   +9.492     0.0000  ***  10
+     64 Follower+Corridor-w1.5            1.994      2.070  +3.83%   +9.353     0.0000  ***  10
+     64 Follower+Corridor-w2.0            1.994      2.072  +3.90%  +13.471     0.0000  ***  10
+     96 Follower+Corridor-w0.5            2.660      2.735  +2.80%   +7.337     0.0000  ***  10
+     96 Follower+Corridor-w1.0            2.660      2.787  +4.76%   +9.006     0.0000  ***  10
+     96 Follower+Corridor-w1.5            2.660      2.838  +6.70%  +17.410     0.0000  ***  10
+     96 Follower+Corridor-w2.0            2.660      2.864  +7.67%  +25.009     0.0000  ***  10
+    128 Follower+Corridor-w0.5            3.232      3.327  +2.92%  +10.009     0.0000  ***  10
+    128 Follower+Corridor-w1.0            3.232      3.405  +5.34%  +23.382     0.0000  ***  10
+    128 Follower+Corridor-w1.5            3.232      3.488  +7.92%  +21.129     0.0000  ***  10
+    128 Follower+Corridor-w2.0            3.232      3.520  +8.89%  +27.191     0.0000  ***  10
+    160 Follower+Corridor-w0.5            3.705      3.795  +2.43%   +5.734     0.0003  ***  10
+    160 Follower+Corridor-w1.0            3.705      3.925  +5.94%  +13.442     0.0000  ***  10
+    160 Follower+Corridor-w1.5            3.705      4.014  +8.34%  +13.840     0.0000  ***  10
+    160 Follower+Corridor-w2.0            3.705      4.090 +10.40%  +22.615     0.0000  ***  10
+    192 Follower+Corridor-w0.5            4.073      4.190  +2.87%   +5.568     0.0003  ***  10
+    192 Follower+Corridor-w1.0            4.073      4.326  +6.21%  +10.268     0.0000  ***  10
+    192 Follower+Corridor-w1.5            4.073      4.431  +8.80%  +20.782     0.0000  ***  10
+    192 Follower+Corridor-w2.0            4.073      4.536 +11.37%  +21.393     0.0000  ***  10
+
+
+==============================================================================================================
+Folder: 07-corridor-mazes
+==============================================================================================================
+Map                         Agents Variant                        Baseline    Variant     Δ %        t    p-value  sig   n
+--------------------------------------------------------------------------------------------------------------------------
+test-mazes-s40_wc4_od30         32 Follower+Corridor                 0.575      0.573  -0.31%   -1.304     0.2247   ns  10
+test-mazes-s40_wc4_od30         64 Follower+Corridor                 1.102      1.103  +0.05%   +0.300     0.7711   ns  10
+test-mazes-s40_wc4_od30        128 Follower+Corridor                 1.992      1.998  +0.30%   +1.030     0.3298   ns  10
+test-mazes-s40_wc4_od30        192 Follower+Corridor                 2.655      2.672  +0.64%   +2.471     0.0355    *  10
+test-mazes-s44_wc2_od30         32 Follower+Corridor                 0.627      0.625  -0.37%   -0.992     0.3469   ns  10
+test-mazes-s44_wc2_od30         64 Follower+Corridor                 1.209      1.209  +0.03%   +0.167     0.8713   ns  10
+test-mazes-s44_wc2_od30        128 Follower+Corridor                 2.266      2.259  -0.30%   -1.408     0.1929   ns  10
+test-mazes-s44_wc2_od30        192 Follower+Corridor                 3.135      3.122  -0.41%   -2.053     0.0703   ns  10
+test-mazes-s47_wc2_od25         32 Follower+Corridor                 0.641      0.639  -0.18%   -0.772     0.4600   ns  10
+test-mazes-s47_wc2_od25         64 Follower+Corridor                 1.236      1.236  +0.00%   -0.000     1.0000   ns  10
+test-mazes-s47_wc2_od25        128 Follower+Corridor                 2.299      2.307  +0.31%   +1.530     0.1603   ns  10
+test-mazes-s47_wc2_od25        192 Follower+Corridor                 3.184      3.183  -0.03%   -0.119     0.9081   ns  10
+test-mazes-s49_wc2_od50         32 Follower+Corridor                 0.620      0.624  +0.73%   +2.438     0.0375    *  10
+test-mazes-s49_wc2_od50         64 Follower+Corridor                 1.196      1.198  +0.15%   +0.486     0.6387   ns  10
+test-mazes-s49_wc2_od50        128 Follower+Corridor                 2.180      2.185  +0.22%   +0.800     0.4442   ns  10
+test-mazes-s49_wc2_od50        192 Follower+Corridor                 2.972      2.954  -0.60%   -1.875     0.0936   ns  10
+
+
+==============================================================================================================
+Folder: 08-corridor-ood
+==============================================================================================================
+ Agents Variant                        Baseline    Variant     Δ %        t    p-value  sig   n
+-----------------------------------------------------------------------------------------------
+     32 Follower+Corridor                 0.669      0.670  +0.03%   +0.190     0.8534   ns  10
+     64 Follower+Corridor                 1.289      1.287  -0.15%   -0.510     0.6223   ns  10
+    128 Follower+Corridor                 2.219      2.223  +0.18%   +0.397     0.7008   ns  10
+    192 Follower+Corridor                 2.409      2.380  -1.21%   -1.071     0.3121   ns  10
+
+
+Legend: * p<0.05, ** p<0.01, *** p<0.001, ns = not significant
+Paired t-test (two-sided), n = number of seeds.
+Δ % = (variant_mean - baseline_mean) / baseline_mean × 100
+Positive Δ % with significant p means the variant outperforms baseline.
+

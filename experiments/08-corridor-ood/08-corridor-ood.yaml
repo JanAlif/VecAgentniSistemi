@@ -1,0 +1,38 @@
+environment:
+  name: Pogema-v0
+  on_target: restart
+  max_episode_steps: 512
+  observation_type: POMAPF
+  collision_system: soft
+  map_name: den520d
+  num_agents:
+    grid_search: [32, 64, 128, 192]
+  seed:
+    grid_search: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+algorithms:
+  Follower:
+    name: Follower
+    num_process: 4
+    parallel_backend: 'balanced_dask'
+
+  Follower+Corridor:
+    name: Follower
+    num_process: 4
+    parallel_backend: 'balanced_dask'
+    override_config:
+      preprocessing:
+        use_corridor_penalty: True
+        corridor_penalty_weight: 1.5
+
+results_views:
+  TabularResults:
+    type: tabular
+    drop_keys: [seed]
+    print_results: True
+
+  ood-corridor:
+    type: plot
+    x: num_agents
+    y: avg_throughput
+    name: den520d 64×64 — Out-of-Distribution Generalization

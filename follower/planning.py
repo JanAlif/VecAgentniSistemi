@@ -18,6 +18,9 @@ class PlannerConfig(BaseModel):
     use_dynamic_cost: bool = True
     reset_dynamic_cost: bool = True
 
+    use_corridor_penalty: bool = False
+    corridor_penalty_weight: float = 1.5
+
 
 class Planner:
     def __init__(self, cfg: PlannerConfig):
@@ -41,6 +44,17 @@ class Planner:
             if self.cfg.use_static_cost:
                 pen_calc = planner(self.obstacles, self.cfg.use_static_cost, self.cfg.use_dynamic_cost, self.cfg.reset_dynamic_cost)
                 penalties = pen_calc.precompute_penalty_matrix(obs_radius)
+    
+                # Idea 6: add corridor penalty to bottleneck cells
+                if self.cfg.use_corridor_penalty:
+                    from follower.corridor_penalty import add_corridor_penalty
+                    penalties = add_corridor_penalty(
+                        penalties,
+                        self.obstacles,
+                        weight=self.cfg.corridor_penalty_weight,
+                        obs_radius=obs_radius,
+                    )
+    
                 for p in self.planner:
                     p.set_penalties(penalties)
 

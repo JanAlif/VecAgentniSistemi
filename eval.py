@@ -20,7 +20,7 @@ PROJECT_NAME = 'pogema-toolbox'
 BASE_PATH = Path('experiments')
 
 
-def main(disable_wandb=False):
+def main(disable_wandb=True):
     ToolboxRegistry.register_env('Pogema-v0', create_env_base, Environment)
     ToolboxRegistry.register_algorithm('A*', BatchAStarAgent)
     ToolboxRegistry.register_algorithm('Follower', FollowerInference, FollowerInferenceConfig,
@@ -32,12 +32,11 @@ def main(disable_wandb=False):
         maps_to_register = yaml.safe_load(f)
     ToolboxRegistry.register_maps(maps_to_register)
 
+    
     folder_names = [
-        '01-random-20x20',
-        '02-mazes',
-        '03-den520d',
-        '04-Paris_1',
-        '05-warehouse',
+        '06-corridor-warehouse',
+        '07-corridor-mazes',
+        '08-corridor-ood',
     ]
 
     for folder in folder_names:
@@ -49,10 +48,10 @@ def main(disable_wandb=False):
         if folder == 'eval-fast':
             disable_wandb = True
 
-        initialize_wandb(evaluation_config, eval_dir, disable_wandb, PROJECT_NAME)
+        # initialize_wandb(evaluation_config, eval_dir, disable_wandb, PROJECT_NAME)
         evaluation(evaluation_config, eval_dir=eval_dir)
-        save_evaluation_results(eval_dir)
-        wandb.finish()
+        #save_evaluation_results(eval_dir)
+        # wandb.finish()
 
 
 if __name__ == '__main__':
