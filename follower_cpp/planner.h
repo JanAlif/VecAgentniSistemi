@@ -52,6 +52,8 @@ class planner
     bool use_static_cost;
     bool use_dynamic_cost;
     bool reset_dynamic_cost;
+    float decay_factor;       // PIBT-inspired: decay old occupations instead of hard reset
+    float density_weight;     // PIBT-inspired: extra cost for locally dense agent clusters
     inline float h(std::pair<int, int> n)
     {
         //return abs(n.first - goal.first) + abs(n.second - goal.second);
@@ -158,8 +160,8 @@ class planner
     }
 
 public:
-    planner(std::vector<std::vector<int>> _grid={}, float _use_static_cost=1.0, float _use_dynamic_cost=1.0, bool _reset_dynamic_cost=true):
-    grid(_grid), use_static_cost(_use_static_cost), use_dynamic_cost(_use_dynamic_cost), reset_dynamic_cost(_reset_dynamic_cost)
+    planner(std::vector<std::vector<int>> _grid={}, float _use_static_cost=1.0, float _use_dynamic_cost=1.0, bool _reset_dynamic_cost=true, float _decay_factor=0.0, float _density_weight=0.0):
+    grid(_grid), use_static_cost(_use_static_cost), use_dynamic_cost(_use_dynamic_cost), reset_dynamic_cost(_reset_dynamic_cost), decay_factor(_decay_factor), density_weight(_density_weight)
     {
         abs_offset = {0, 0};
         goal = {0,0};
@@ -210,18 +212,45 @@ public:
     {
         cur_goal = {cur_goal.first + abs_offset.first, cur_goal.second + abs_offset.second};
         if(reset_dynamic_cost)
+        {
             if(goal.first != cur_goal.first || goal.second != cur_goal.second)
-                num_occupations = std::vector<std::vector<float>>(grid.size(), std::vector<float>(grid.front().size(), 0));
+            {
+                if(decay_factor > 0.0f && decay_factor < 1.0f)
+                {
+                    // PIBT-inspired: decay occupations instead of full reset
+                    // This preserves historical congestion information, similar to how
+                    // PIBT's priority accumulates over time for agents that haven't reached goals.
+                    for(size_t i = 0; i < num_occupations.size(); i++)
+                        for(size_t j = 0; j < num_occupations[i].size(); j++)
+                            num_occupations[i][j] *= decay_factor;
+                }
+                else
+                {
+                    num_occupations = std::vector<std::vector<float>>(grid.size(), std::vector<float>(grid.front().size(), 0));
+                }
+            }
+        }
         py::buffer_info buf = array.request();
         std::list<std::pair<int, int>> occupied_cells;
         double *ptr = (double *) buf.ptr;
         cur_pos = {cur_pos.first + abs_offset.first, cur_pos.second + abs_offset.second};
+        int agent_count = 0;  // PIBT-inspired: count local agent density
         for(size_t i = 0; i < static_cast<size_t>(buf.shape[0]); i++)
             for(size_t j = 0; j < static_cast<size_t>(buf.shape[1]); j++)
                 if(ptr[i*buf.shape[1] + j] != 0)
+                {
                     occupied_cells.push_back({cur_pos.first + i, cur_pos.second + j});
+                    agent_count++;
+                }
+        // PIBT-inspired density penalty: when many agents are nearby,
+        // add extra cost to occupied cells proportional to local density.
+        // This mirrors PIBT's insight that agents in dense areas need dynamic
+        // priority adjustments to avoid congestion/deadlocks.
+        float density_bonus = 0.0f;
+        if(density_weight > 0.0f && agent_count > 1)
+            density_bonus = density_weight * static_cast<float>(agent_count - 1);
         for(auto o:occupied_cells)
-            num_occupations[o.first][o.second]+= 1.0;
+            num_occupations[o.first][o.second] += 1.0f + density_bonus;
     }
 
     void update_path(std::pair<int, int> s, std::pair<int, int> g)
