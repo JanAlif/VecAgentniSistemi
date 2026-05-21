@@ -34,9 +34,8 @@ def main(disable_wandb=True):
 
     
     folder_names = [
-        '06-corridor-warehouse',
-        '07-corridor-mazes',
-        '08-corridor-ood',
+        '09-pibt-rhcr-warehouse',
+        '10-pibt-rhcr-mazes',
     ]
 
     for folder in folder_names:

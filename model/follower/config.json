@@ -193,7 +193,10 @@
     "use_corridor_penalty": false,
     "corridor_penalty_weight": 1.5,
     "network_input_radius": 5,
-    "intrinsic_target_reward": 0.01
+    "intrinsic_target_reward": 0.01,
+    "decay_factor": 0.0,
+    "density_weight": 0.0,
+    "replan_interval": 0
   },
   "use_wandb": true,
   "command_line": "--env=PogemaMazes-v0",

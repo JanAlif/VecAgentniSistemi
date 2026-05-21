@@ -1,0 +1,80 @@
+environment:
+  name: Pogema-v0
+  on_target: restart
+  max_episode_steps: 512
+  observation_type: POMAPF
+  collision_system: soft
+  map_name: wfi_warehouse
+  num_agents:
+    grid_search: [32, 64, 96, 128, 160, 192]
+  seed:
+    grid_search: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+algorithms:
+  # Baseline: corridor penalty only (current best)
+  Follower+Corridor:
+    name: Follower
+    num_process: 4
+    parallel_backend: 'balanced_dask'
+    override_config:
+      preprocessing:
+        use_corridor_penalty: True
+        corridor_penalty_weight: 1.5
+
+  # PIBT-inspired: decay factor for dynamic costs (instead of hard reset)
+  Follower+Corridor+Decay:
+    name: Follower
+    num_process: 4
+    parallel_backend: 'balanced_dask'
+    override_config:
+      preprocessing:
+        use_corridor_penalty: True
+        corridor_penalty_weight: 1.5
+        decay_factor: 0.5
+
+  # PIBT-inspired: density-weighted dynamic cost
+  Follower+Corridor+Density:
+    name: Follower
+    num_process: 4
+    parallel_backend: 'balanced_dask'
+    override_config:
+      preprocessing:
+        use_corridor_penalty: True
+        corridor_penalty_weight: 1.5
+        density_weight: 0.3
+
+  # RHCR-inspired: windowed replanning (replan every 3 steps)
+  Follower+Corridor+Replan3:
+    name: Follower
+    num_process: 4
+    parallel_backend: 'balanced_dask'
+    override_config:
+      preprocessing:
+        use_corridor_penalty: True
+        corridor_penalty_weight: 1.5
+        replan_interval: 3
+
+  # Combined: all PIBT + RHCR features
+  Follower+Corridor+All:
+    name: Follower
+    num_process: 4
+    parallel_backend: 'balanced_dask'
+    override_config:
+      preprocessing:
+        use_corridor_penalty: True
+        corridor_penalty_weight: 1.5
+        decay_factor: 0.5
+        density_weight: 0.3
+        replan_interval: 3
+
+results_views:
+  TabularResults:
+    type: tabular
+    drop_keys: [seed]
+    print_results: True
+
+  pibt-rhcr-warehouse:
+    type: plot
+    x: num_agents
+    y: avg_throughput
+    name: Warehouse — PIBT + RHCR Inspired Improvements

@@ -1,0 +1,51 @@
+environment:
+  name: Pogema-v0
+  on_target: restart
+  max_episode_steps: 512
+  observation_type: POMAPF
+  collision_system: soft
+  map_name:
+    grid_search:
+      - test-mazes-s40_wc4_od30
+      - test-mazes-s44_wc2_od30
+      - test-mazes-s47_wc2_od25
+      - test-mazes-s49_wc2_od50
+  num_agents:
+    grid_search: [32, 64, 128, 192]
+  seed:
+    grid_search: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+algorithms:
+  Follower+Corridor:
+    name: Follower
+    num_process: 4
+    parallel_backend: 'balanced_dask'
+    override_config:
+      preprocessing:
+        use_corridor_penalty: True
+        corridor_penalty_weight: 1.5
+
+  # Combined PIBT+RHCR enhancements
+  Follower+Corridor+PIBT-RHCR:
+    name: Follower
+    num_process: 4
+    parallel_backend: 'balanced_dask'
+    override_config:
+      preprocessing:
+        use_corridor_penalty: True
+        corridor_penalty_weight: 1.5
+        decay_factor: 0.5
+        density_weight: 0.3
+        replan_interval: 3
+
+results_views:
+  TabularResults:
+    type: tabular
+    drop_keys: [seed]
+    print_results: True
+
+  mazes-pibt-rhcr:
+    type: plot
+    x: num_agents
+    y: avg_throughput
+    name: Mazes 65×65 — PIBT + RHCR Generalization
